@@ -1,23 +1,39 @@
+<script setup>
+useHead({
+  title: "YÉBA_Portfolio", 
+  link: [
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap",
+    },
+  ],
+});
+</script>
+
 <template>
-  <div class="h-dvh flex flex-col">
-    <div class="flex-1"></div>
+  <div class="h-dvh px-3 pt-4">
+    <p class="text-xs w-1/2 md:w-64"><span class="text-gray-600">ABOUT__</span>
+        I am a frontend developer based in Paris, FR. Always using technology to create the bests interactive experiences on the web and
+    </p>
+    <div class="flex flex-col md:flex-row">
+      <h1 class="leading-none text-[9rem] md:text-[25rem]">This</h1>
+      <h1 class="leading-32 md:leading-none text-[9rem] md:text-[25rem]">__ Is My</h1>
+    </div>
     <div>
-      <h1 class="uppercase text-center pb-20">
-        <span class="text-3xl">Bienvenue sur mon</span><br/>
-        <span class="text-6xl">Portfolio</span>
-      </h1>
+      <h1 class="leading-none break-words text-[9rem] md:text-[25rem] md:text-center">Portfolio</h1>
+      <div>
+        <p class="text-xs text-right"><span class="text-gray-600">-YÉBA__</span>
+          [verb in lingala]<br/> <span class="italic">Knowledge.</span>
+        </p>
+      </div>
     </div>
   </div>
-  <div class="h-dvh bg-amber-300">
-    <h1 class="uppercase text-center text-4xl">Présentation</h1>
-  </div>
-  <div class="h-dvh bg-amber-500">
-    <h1 class="uppercase text-center text-4xl">Projet : Koliagram</h1>
-  </div>
-  <div class="h-dvh bg-amber-800">
-    <h1 class="uppercase text-center text-4xl">Jeu : Le Juste Prix</h1>
-  </div>
-  <div class="h-dvh bg-amber-950">
-    <h1 class="uppercase text-center text-4xl">Projet : Pronote football</h1>
-  </div>
 </template>
+
+<style>
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+}
+</style>
+
