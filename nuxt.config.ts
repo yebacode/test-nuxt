@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.css"],
   app: {
+    baseURL: '/portfolio/',
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",

@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "deploy": "nuxt generate && git subtree push --prefix .output/public origin gh-pages"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.7.5",
