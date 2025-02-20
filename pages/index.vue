@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Yébacode portfolio",
+  title: "Test de déploiement avec Nuxt",
 });
 </script>
 
